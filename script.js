@@ -17,8 +17,8 @@ if (item && price) {
     const table = document.getElementById("todoTable").getElementsByTagName('tbody')[0];
 
     table.innerHTML+=`
-    <td id="item">${item}</td>
-    <td id="price">${price}</td>
+    <td ">${item}</td>
+    <td >${price}</td>
     `
     sum+=parseInt(price)
     total.innerHTML=sum;
